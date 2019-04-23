@@ -1,0 +1,9 @@
+student@cse:~$ gcc 1.c
+student@cse:~$ ./a.out
+You've entered Parent process 
+Parent process id : 6330 
+Child id from parent process : 6331 
+You've entered Child process 
+Child process id : 6331 
+Parent id from child process : 6330 
+

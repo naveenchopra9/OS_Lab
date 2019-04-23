@@ -1,0 +1,106 @@
+
+
+************	FCFS Disk Scheduling Algorithm **********
+Enter the size of the queue :
+8
+Enter queue elements :
+
+95
+180
+34
+119
+11
+123
+62
+64
+Move from 50 to 95 with Seek 45
+Move from 95 to 180 with Seek 85
+Move from 180 to 34 with Seek 146
+Move from 34 to 119 with Seek 85
+Move from 119 to 11 with Seek 108
+Move from 11 to 123 with Seek 112
+Move from 123 to 62 with Seek 61
+Move from 62 to 64 with Seek 2
+
+Total head movement  is : 644
+
+Average seek time is :3220
+
+
+************ SSTF Disk Scheduling Algorithm **********
+
+
+Enter the size of the queue
+8
+Enter queue elements
+95
+180
+34
+119
+11
+123
+62
+64
+
+Move from 62 to 50 with Seek 12
+Move from 64 to 62 with Seek 2
+Move from 34 to 64 with Seek 30
+Move from 11 to 34 with Seek 23
+Move from 95 to 11 with Seek 84
+Move from 119 to 95 with Seek 24
+Move from 123 to 119 with Seek 4
+Move from 180 to 123 with Seek 57
+
+Total head movement  is : 236
+
+Average seek time is :1180 
+
+
+*********** SCAN - Disk Scheduling Algorithm (Elevator) ***********
+
+Input no of disk locations :8
+Input elements into disk queue :
+95
+180
+34
+119
+11
+123
+62
+64
+
+50 --> 34 --> 11 --> 62 --> 64 --> 95 --> 119 --> 123 --> 180 --> 
+
+Total head movement  is : 230
+
+Average seek time is :1150 
+
+	
+*********** C-SCAN: Circular Scan ***********
+
+Input no of disk locations :	8
+Enter disk positions to be read
+95
+180
+34
+119
+11
+123
+62
+64
+
+Disk head moves from 50 to 34 with seek 16
+Disk head moves from 34 to 11 with seek 23
+Disk head moves from 11 to 0 with seek 11
+Disk head moves from 0 to 199 with seek 199
+Disk head moves from 199 to 180 with seek 19
+Disk head moves from 180 to 123 with seek 57
+Disk head moves from 123 to 119 with seek 4
+Disk head moves from 119 to 95 with seek 24
+Disk head moves from 95 to 64 with seek 31
+Disk head moves from 64 to 62 with seek 2
+
+
+Total head movement  is : 187
+
+Average seek time is :935

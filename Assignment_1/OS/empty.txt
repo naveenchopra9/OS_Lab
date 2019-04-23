@@ -1,0 +1,4 @@
+SORT command sorts the contents of a text file, line by line.
+sort is a standard command line program that prints the lines of its input or concatenation of all files listed in its argument list in sorted order.
+The sort command is a command line utility for sorting lines of text files. It supports sorting alphabetically, in reverse order, by number, by month and can also remove duplicates.
+The sort command can also sort by items not at the beginning of the line, ignore case sensitivity.

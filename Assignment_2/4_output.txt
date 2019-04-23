@@ -1,0 +1,6 @@
+student@cse:~$ gcc 4.c
+student@cse:~$ ./a.out
+Enter the number of seconds : 10
+PID : 5728, Child Died!
+PID : 5727, Parent died!
+

@@ -1,0 +1,8 @@
+Global variable "x" has been initialized with 50.
+
+When the parent process is running, "x" is changed to "x+1". 
+Hence, new value of "x" is 51.
+
+Now, when child process will run, "x" is changed to "x-1". 
+Hence, new value of "x" will be 49 rather than 50 as the change in global variable in one process has no effect on the other processes because data/state of two processes are different.
+

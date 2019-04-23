@@ -1,0 +1,9 @@
+student@cse:~$ gcc 2.c
+student@cse:~$ ./a.out
+Enter an integer : 5
+Before Fork
+Factorial is : 120  PID: 6349 
+After Fork
+Factorial is : 120  PID: 6349 
+After Fork
+Factorial is : 120  PID: 6350 

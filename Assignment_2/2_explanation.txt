@@ -1,0 +1,7 @@
+Factorial function calculates the factorial of n.
+
+Since, factorial() is called before and after fork(). 
+Hence, it will be called a total of 3 times.
+
+Parent process ID and process ID before fork will be the same but the child process will have a different process ID than the previous two.
+

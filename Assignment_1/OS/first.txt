@@ -1,0 +1,2 @@
+SORT command sorts the contents of a text file, line by line.
+

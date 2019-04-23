@@ -1,0 +1,28 @@
+a)  How many CPU and cores does the machine have?
+    Ans-  	CPU(s):              4
+		On-line CPU(s) list: 0-3
+		Thread(s) per core:  2
+		Core(s) per socket:  2
+    COMMAND- lscpu
+
+b)  What is the frequency of each CPU ?
+    Ans-  	cpu MHz		: 1817.946
+		cpu MHz		: 1788.577
+		cpu MHz		: 1861.201
+		cpu MHz		: 1778.172
+	COMMAND- cat /proc/cpuinfo | grep "MHz"
+
+c)  How much memory does your system have?
+	Ans- 	MemTotal:        3947740 kB
+	COMMAND- cat /proc/meminfo | grep "MemTotal"
+
+d)	How much of it is free and available? What is the difference between them?
+	Ans- 	MemFree:          280776 kB
+		MemAvailable:     633488 kB
+		Difference = (633488 - 280776) kB = 352712 kB
+	COMMAND- cat /proc/meminfo | grep -e "MemFree" -e "MemAvailable"
+   
+e)  What is total number of user-level processes in the system?
+	Ans- Tasks: 272 total,   1 running, 267 sleeping,   4 stopped,   0 zombie
+	COMMAND- cat /proc/meminfo
+

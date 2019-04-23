@@ -1,0 +1,10 @@
+Input "t" is taken from the user. 
+The child process will waits for "t" seconds before dying.
+
+A call to wait() blocks the calling process until one of its child processes exits or a signal is received. 
+Wait is called when "pid!=0", hence child process will run first.
+
+When child process will run it will wait for t seconds due to "sleep(t)" function.
+
+Therefore, the child process will run first and die and after that parent process will run and then die.
+

@@ -1,0 +1,3 @@
+The sort command can also sort by items not at the beginning of the line, ignore case sensitivity.
+and return whether a file is sorted or not. Sorting is done based on one or more sort keys.
+extracted from each line of input.

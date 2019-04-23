@@ -1,0 +1,9 @@
+The new process created by fork is called the child process.
+The return value of fork in the child is 0, whereas the return value in the parent is the process ID of the new child.
+
+Hence, if pid=0, the process is child process. 
+We can print the current process id by "getpid()" and parent process id by "getppid()" 
+
+Whereas, if pid!=0, the process is parent process. 
+We can print its child process by printing the "pid" variable value.
+

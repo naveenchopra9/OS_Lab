@@ -1,0 +1,6 @@
+student@cse:~$ gcc 3.c
+student@cse:~$ ./a.out
+Original global value : 50
+New global value = 51 , PID : 5493
+New global value = 49 , PID : 5494
+
